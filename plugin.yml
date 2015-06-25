@@ -1,0 +1,12 @@
+name: BuildingProtector
+main: com.github.jptx1234.BuildingProtector.BuildingProtector
+version: 1.0
+commands:
+  bp:
+    description: 运行BuildingProtector
+    usage: 用法：/bp <save|undo|update|del|give|help> <saveName> 更详细的帮助请使用/bp help
+permission: 
+  permission-message: 没权限
+  bp:
+    description: 允许使用bp
+    default: op
